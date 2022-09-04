@@ -30,11 +30,11 @@ public class test {
     @When("saisir l'objet de recherche")
     public void saisirrecherche() {
 
-        driver.findElement(By.Name("keyword")).clear();
+        driver.findElement(By.name("keyword")).clear();
 
 
-        driver.findElement(By.Name("keyword")).sendkeys("volkswagen");
-        driver.findElement(By.Classename("btn btn-primary input-group-text")).click();
+        driver.findElement(By.name("keyword")).sendKeys("volkswagen");
+        driver.findElement(By.className("btn btn-primary input-group-text")).click();
 
 
     }
