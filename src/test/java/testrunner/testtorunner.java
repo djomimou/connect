@@ -10,5 +10,6 @@ import org.junit.runner.RunWith;
         glue = "stepdefinition",stepNotifications = true,monochrome = true,
         plugin={"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 )
-public class testrunner {
+
+public class testtorunner {
 }
